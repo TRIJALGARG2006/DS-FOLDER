@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #1a1a1b;
+            color: #d1d1d1;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            background-color: #262627;
+        }
+
+        th, td {
+            border: 1px solid #444;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2d2d2e;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2a2a2b;
+        }
+
+        .bottom-line {
+            margin-top: 30px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Feature Comparison</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Bubble Sort</th>
+                <th>Selection Sort</th>
+                <th>Insertion Sort</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="highlight">Best Case Time</td>
+                <td>O(n)</td>
+                <td>O(n²)</td>
+                <td>O(n)</td>
+            </tr>
+            <tr>
+                <td class="highlight">Worst Case Time</td>
+                <td>O(n²)</td>
+                <td>O(n²)</td>
+                <td>O(n²)</td>
+            </tr>
+            <tr>
+                <td class="highlight">Memory / Space</td>
+                <td>O(1) (In-place)</td>
+                <td>O(1) (In-place)</td>
+                <td>O(1) (In-place)</td>
+            </tr>
+            <tr>
+                <td class="highlight">Stable?</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td class="highlight">Primary Action</td>
+                <td>Swapping adjacent items</td>
+                <td>Finding the minimum item</td>
+                <td>Shifting items to insert</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <p>bubble sort: loop, swapping, comparison, time and space(inplace and outplace) complexity, stable and unstable</p>
+</body>
+</html>
